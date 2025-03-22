@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Button, Input, Card, CardContent } from "@/components/ui";
 
 const supabase = createClient(
-  "https://your-supabase-url.supabase.co",
-  "your-public-anon-key"
+  "https://amnuqffbhjtlgkxsxfqr.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFtbnVxZmZiaGp0bGdreHN4ZnFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI2NDAwODUsImV4cCI6MjA1ODIxNjA4NX0.Rcr-2DN7df6TijF3tq7EwCY72IJrtgRN5gfLwzhagOc"
 );
 
 function QuotesPage() {
